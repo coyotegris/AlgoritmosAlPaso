@@ -15,7 +15,7 @@ def BFS(source, graph):
     return P
 
 
-G = {'A': ['B', 'C'], 'B': ['A', 'C', 'D'], 'C': ['A', 'B', 'E'], 'D': ['B'], 'E': ['C', 'F'], 'F': ['E'], 'T': ['N']}
+G = {'A': ['B', 'C'], 'B': ['A', 'C', 'D'], 'C': ['A', 'B', 'E'], 'D': ['B'], 'E': ['C', 'F'], 'F': ['E']}
 
 resultado = BFS('A', G)
 print(resultado)
